@@ -1,0 +1,59 @@
+{
+  "name": "ravencore-lib",
+  "version": "1.0.3",
+  "description": "A pure and powerful JavaScript Ravencoin library.",
+  "author": "Under",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp test",
+    "coverage": "gulp coverage",
+    "build": "gulp"
+  },
+  "contributors": [
+    {
+      "name": "Under",
+      "email": ""
+    }
+  ],
+  "keywords": [
+    "ravencoin",
+    "transaction",
+    "address",
+    "p2p",
+    "ecies",
+    "cryptocurrency",
+    "blockchain",
+    "payment",
+    "bip21",
+    "bip32",
+    "bip37",
+    "bip69",
+    "bip70",
+    "multisig"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/underdarkskies/ravencore-lib.git"
+  },
+  "browser": {
+    "request": "browser-request"
+  },
+  "dependencies": {
+    "bn.js": "=2.0.4",
+    "bs58": "=2.0.0",
+    "buffer-compare": "=1.0.0",
+    "elliptic": "=3.0.3",
+    "inherits": "=2.0.1",
+    "lodash": "^3.10.1",
+    "node-x16r": "github:raven-community/node-x16r#master"
+  },
+  "devDependencies": {
+    "ravencore-build": "github:raven-community/ravencore-build#master",
+    "brfs": "^1.2.0",
+    "chai": "^1.10.0",
+    "gulp": "^3.8.10",
+    "sinon": "^1.13.0"
+  },
+  "license": "MIT"
+}

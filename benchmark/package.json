@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "rcoin": "github:raven-community/rcoin#master",
+    "ravencoinjs-lib": "github:raven-community/ravencoinjs-lib#master",
+    "fullnode": "^0.9.0",
+    "benchmark": "^1.0.0"
+  }
+}
